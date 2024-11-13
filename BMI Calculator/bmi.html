@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="title">
+            <h1>BMI Calculator</h1>
+        </div>
+        <div class="input">
+            <div class="weight">
+                <label for="weight">Weight(kg)</label>
+                <input type="number" name="weight" id="weight" class="weight" placeholder="Enter your weight">
+            </div>
+            <div class="height">
+                <label for="height">Height(m)</label>
+                <input type="number" name="height" id="height" placeholder="Enter your height">
+            </div>
+            <div class="error_container">
+                <p class="errormsg" id="message">hello</p>
+            </div>
+        </div>
+        <div class="submit">
+            <button type="submit" onclick="bmicalculate()" class="btn">Calcuate</button>
+        </div>
+    </div>
+    <div id="status_bar" class="card1">
+        <div class="content">
+            <div class="title1">
+                <h2>Status Bar</h2>
+            </div>
+            <div class="status">
+                <p id="weight-p">Weight: 60kg</p>
+                <p id="height-p">Height: 1.5m</p>
+                <p id="result">BMI:50</p>
+                </p>
+            </div>
+            <div class="Bmi">
+                <p id="bmi_type">Skinny</p>
+            </div>
+        </div>
+        <div class="back">
+            <button onclick="return_status()">
+                < </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
