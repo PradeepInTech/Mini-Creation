@@ -1,4 +1,4 @@
-#Mini-Creation
+# Mini-Creation
 
 Mini-Creation is a collection of small, standalone projects designed to practice and showcase foundational coding skills. Each project in this repository focuses on a simple, practical application like calculators, to-do lists, and other everyday tools.
 
