@@ -21,7 +21,7 @@ body {
 }
 
 
-.card {
+.bmi-card {
     position: absolute;
     display: flex;
     align-items: center;
@@ -154,7 +154,7 @@ body {
     cursor: pointer;
 }
 
-.errormsg {
+.error-msg {
     opacity: 0;
     max-height: 0;
     color: #f44336;
